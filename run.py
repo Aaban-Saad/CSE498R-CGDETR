@@ -10,7 +10,7 @@ import numpy as np
 import subprocess
 import os
 import json
-from pytube import YouTube
+from pytubefix import YouTube
 from moviepy.video.io.VideoFileClip import VideoFileClip
 
 def load_jsonl(filename):
